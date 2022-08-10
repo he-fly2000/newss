@@ -5,6 +5,6 @@ const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000; // 自行改为你的接口 port
 
 server.use(middlewares);
-server.use("/api", router);
+server.use("", router);
 
 server.listen(port);
