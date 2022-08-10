@@ -1,6 +1,7 @@
 import axios from "axios";
 import {store} from '../redux/store'
 
+//后端接口
 axios.defaults.baseURL = "https://app-9090.herokuapp.com/"
 
 axios.interceptors.request.use(function (config) {
