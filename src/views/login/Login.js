@@ -136,13 +136,13 @@ export default function Login() {
           "image": {
             "height": 32,
             "replace_color": true,
-            "src": "/logo192.png",
+            "src": "/123.png",
             "width": 32
           },
           "images": {
             "height": 32,
             "replace_color": true,
-            "src": "/logo192.png",
+            "src": "/123.png",
             "width": 32
           }
         },
