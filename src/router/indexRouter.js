@@ -15,7 +15,8 @@ export default function indexRouter() {
         <Route path="/detail/:id" element={<Detail />} />
         <Route path="*" element={localStorage.getItem('token') ? 
         <NewsSandBox></NewsSandBox> : 
-        <Navigate to="/login" />
+//         <Navigate to="/login" />
+        <Route index element={<Login />}/>
         } />
       </Routes>
     </HashRouter>
